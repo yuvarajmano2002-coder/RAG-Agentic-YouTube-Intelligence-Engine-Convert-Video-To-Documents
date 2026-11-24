@@ -1,6 +1,6 @@
-# 🌌 Vortex RAG: Agentic YouTube Intelligence Engine
+# RAG: Agentic YouTube Intelligence Engine
 
-Vortex RAG is a sophisticated, full-stack application designed to transform unstructured YouTube video content into structured, searchable, and professional intelligence reports. By leveraging a multi-tier microservice architecture and agentic RAG (Retrieval-Augmented Generation), Vortex provides a seamless pipeline for high-fidelity knowledge extraction.
+RAG is a sophisticated, full-stack application designed to transform unstructured YouTube video content into structured, searchable, and professional intelligence reports. By leveraging a multi-tier microservice architecture and agentic RAG (Retrieval-Augmented Generation), Vortex provides a seamless pipeline for high-fidelity knowledge extraction.
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/Frontend-React%2019--Vite-61DAFB?logo=react)
@@ -12,7 +12,7 @@ Vortex RAG is a sophisticated, full-stack application designed to transform unst
 
 ## 🏗️ Technical Architecture
 
-Vortex RAG follows a robust, asynchronous microservice architecture to ensure high performance and scalability.
+RAG follows a robust, asynchronous microservice architecture to ensure high performance and scalability.
 
 ```mermaid
 graph TD
@@ -104,7 +104,7 @@ graph LR
 ```
 
 ### The Agentic RAG Workflow
-Vortex RAG does not simply "summarize" text. It follows a 5-step cognitive pipeline:
+RAG does not simply "summarize" text. It follows a 5-step cognitive pipeline:
 
 1.  **Topological Analysis**: The agent analyzes a 3,000-character overview of the transcript to identify the top **5 strategic topics**.
 2.  **Semantic Retrieval**: For each identified topic, the agent performs a similarity search against the **FAISS** index to retrieve relevant context chunks.
@@ -162,12 +162,3 @@ npm run dev
 ```
 
 ---
-
-## 👤 Author 
-**Vennilavan Manoharan**
-- **GitHub**: [Vennilavan-Manoharan](https://github.com/Vennilavan-Manoharan)
-
----
-
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for details.
